@@ -29,7 +29,7 @@ AquaSense é um protótipo de estação básica de monitoramento de qualidade da
   - DallasTemperature
   - PubSubClient
   - Time
-- Conexão com um broker MQTT (ex.: broker.hivemq.com)
+- Conexão com um broker MQTT (ex.: [broker.hivemq.com](https://www.hivemq.com/demos/websocket-client/))
 - Wokwi (https://wokwi.com/)
 
 ## Instalação e Uso
