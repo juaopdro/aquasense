@@ -28,8 +28,9 @@ AquaSense é um protótipo de estação básica de monitoramento de qualidade da
   - OneWire
   - DallasTemperature
   - PubSubClient
-- Conta gratuita em broker MQTT (ex.: test.mosquitto.org)
-- Wokwi (https://wokwi.com)
+  - Time
+- Conexão com um broker MQTT (ex.: broker.hivemq.com)
+- Wokwi (https://wokwi.com/)
 
 ## Instalação e Uso
 1. Clone este repositório:
