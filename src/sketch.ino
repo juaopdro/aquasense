@@ -16,8 +16,9 @@ const char* ssid     = "Wokwi-GUEST";
 const char* password = "";
 
 // → Broker MQTT
-const char*    mqtt_server = "test.mosquitto.org";
+const char*    mqtt_server = "broker.hivemq.com";
 const uint16_t mqtt_port   = 1883;
+const char*    mqtt_user   = "aquasense-esp32";
 const char*    mqtt_topic   = "aquasense/dados";
 
 // → Configuração NTP
@@ -47,10 +48,10 @@ void conectaMQTT() {
   Serial.print("Conectando MQTT");
 
   while (!mqtt.connected()) {
-    if (mqtt.connect("ESP32Client")) {
+    if (mqtt.connect(mqtt_user)) {
       Serial.println(" → OK");
     } else {
-      Serial.print(" falhou, state=");
+      Serial.print(" falhou, rc=");
       Serial.print(mqtt.state());
       Serial.println(" tentando de novo em 2s");
 
