@@ -35,7 +35,7 @@ AquaSense é um protótipo de estação básica de monitoramento de qualidade da
 ## Instalação e Uso
 1. Clone este repositório:
 ```bash
-$ git clone https://github.com/seu-usuario/aquasense.git
+$ git clone https://github.com/juaopdro/aquasense.git
 $ cd aquasense
 ````
 
